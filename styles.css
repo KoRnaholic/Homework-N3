@@ -11,16 +11,33 @@ nav {
     background-color: #008080;
     color: white;
     font-weight: 50;
+    position:fixed;
+    top:0;
+    width: 100%;
     
 }
+
+li a{
+    cursor: pointer;
+    padding: 20px 8px 20px 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+li a:hover{
+    background-color: #086e6e;
+}
+
 .logo{
     font-style: Sans-serif;
     font-size: 30px;
+    cursor: pointer;
 }
 
 nav ul {
     display: flex;
-    gap:30px
+    gap:15px
 }
 
 li{
@@ -44,9 +61,8 @@ li{
     gap: 10px;
 }
 .image-container a{
-   
+    cursor: pointer;
     background-color: #008080;
-    
     padding: 12px;
     width: fit-content;
     font-style:Sans-serif;
@@ -84,13 +100,14 @@ li{
 }
 
 /* icon boxes */
-.container{
+.box-container{
     display: flex;
     justify-content: center;
     gap: 50px;
+    background-color: rgba(255, 255, 255, 0.554);
 }
 
-.container div {
+.box-container div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,14 +115,56 @@ li{
     width: 150px;
     border: #f4f4f4 3px solid;
     padding: 10px;
-
+    cursor: pointer;
     text-align: center;
     box-shadow: 0.5px 3px 3px #008080;
     margin-bottom: 10px;
 
 }
 
-.container label{
+.box-container label{
     font-size: 26px;
     font-weight: 600;
 }
+
+/* popular places */
+
+.popular{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#F8F8FF
+}
+
+.popular h1{
+text-align: center;
+font-weight: 300;
+font-size: x;
+}
+
+.popular span{
+    color: #008080;
+}
+
+.popular-box{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5px;
+border: #f4f4f4 3px solid;
+padding: 0px 20px 20px 20px;
+}
+.popular-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.popular-box p {
+    text-align: center;
+}
+.popular-box label {
+    text-align: center;
+    font-size: 26px;
+}
+

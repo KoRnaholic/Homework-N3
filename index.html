@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
+<body id="home">
     <header>
         <nav>
             <a class="logo">Travelvile</a>
             <ul>
 
                 <li>
-                    <a>Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a>Search</a>
+                    <a href="#search">Search</a>
                 </li>
                 <li>
-                    <a>Popular Places</a>
+                    <a href="#popular-places">Popular Places</a>
                 </li>
                 <li>
                     <a>Gallery</a>
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="search">
+    <div id="search" class="search">
         <div>
          <h1>Search Destinations</h1>
         </div>
@@ -54,22 +54,71 @@
         </div> 
     </div>
 
-    <div class="container">
+    <div class="box-container">
     <div>
-        <img  src="icon-location.svg" height="60px" alt="">
+        <img  src="/icons/icon-location.svg" height="60px" alt="">
         <label>Pick Where</label>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, veritatis.</p>
     </div>
     <div>
-        <img  src="icon-shop.svg" height="60px" alt="">
+        <img  src="/icons/icon-shop.svg" height="60px" alt="">
         <label>Travel Shop</label>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptates.</p>
     </div>
     <div>
-        <img  src="icon-fly.svg" height="60px" alt="">
+        <img  src="/icons/icon-fly.svg" height="60px" alt="">
         <label>Fly Cheap</label>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptates.</p>
     </div>
+    </div>
+
+    <div class="popular">
+        <h1><span>Popular</span> Places</h1>
+
+        <div  class="popular-container">
+        <div class="popular-box">
+        <div id="popular-places">
+          <img  src="/images/cancun.jpg" height="150px" width="250px"/>
+        </div>
+        
+         <label>Cancun, Mexico</label>
+        <p>Lorem ipsum dolor sit amet consectetur<br>
+            adipisicing elit. Unde ullam dolor<br>
+            non asperiores vitae vel, quae eos<br>
+            a sunt excepturi consectetur ipsam quod,<br>
+            cumque, architecto repellat<br>
+            cupiditate impedit. Quia, facere.
+            </p>
+            
+        </div>
+        <div class="popular-box">
+        <div>
+           <img  src="/images/bahamas.jpg" height="150px" width="250px"/>
+        </div>
+         <label>The Bahamas</label>
+        <p>Lorem ipsum dolor sit amet consectetur<br>
+            adipisicing elit. Unde ullam dolor<br>
+            non asperiores vitae vel, quae eos<br>
+            a sunt excepturi consectetur ipsam quod,<br>
+            cumque, architecto repellat<br>
+            cupiditate impedit. Quia, facere.
+            </p>
+        </div>
+        <div class="popular-box">
+        <div>
+           <img  src="/images/nova-scotia.jpg" height="150px" width="250px"/>
+           
+        </div>
+        <label>Nova-scotia</label>
+        <p>Lorem ipsum dolor sit amet consectetur<br>
+            adipisicing elit. Unde ullam dolor<br>
+            non asperiores vitae vel, quae eos<br>
+            a sunt excepturi consectetur ipsam quod,<br>
+            cumque, architecto repellat<br>
+            cupiditate impedit. Quia, facere.
+            </p>
+        </div>
+        </div>
     </div>
 </body>
 
